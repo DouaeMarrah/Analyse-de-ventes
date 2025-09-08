@@ -1,10 +1,10 @@
 # E-Commerce Sales Data Analysis Project
 
-## 📌 Project Overview
+##  Project Overview
 
 This project performs an in-depth analysis of sales data from an e-commerce platform specializing in clothing items (Pants, Dresses, and Sweaters). The dataset spans from May 1st, 2016, to April 1st, 2019. The goal is to extract actionable insights, understand key sales drivers, and build predictive models to optimize commercial performance and strategic decision-making.
 
-## 🎯 Objectives
+##  Objectives
 
 - **Optimize Commercial Performance:** Uncover trends, patterns, and opportunities to increase sales and improve operational efficiency.
 - **Forecast Future Sales:** Predict future sales volumes based on historical data for better inventory and resource planning.
@@ -13,7 +13,7 @@ This project performs an in-depth analysis of sales data from an e-commerce plat
 - **Increase Profitability:** Develop optimal sales strategies by focusing on the most profitable products or customer segments.
 - **Achieve Business Targets:** Monitor and adjust sales strategies to ensure the achievement of company goals.
 
-## 📊 Dataset
+##  Dataset
 
 The dataset contains sales data for three product categories, each with the following features:
 
@@ -25,7 +25,7 @@ The dataset contains sales data for three product categories, each with the foll
 
 **Sheets:** `Pants sales`, `Dress sales`, `Sweater sales`
 
-## 🔧 Analysis Process
+##  Analysis Process
 
 The project follows a structured data analysis pipeline:
 
@@ -41,11 +41,11 @@ The project follows a structured data analysis pipeline:
 10. **Dimensionality Reduction:** Performed Principal Component Analysis (PCA) to reduce data complexity while retaining essential variance.
 11. **Sales Prediction:** Built Linear Regression models for each product category to predict future sales, evaluated using Root Mean Squared Error (RMSE).
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Programming Language:** Python
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, SciPy
-## 🚀 How to Run
+##  How to Run
 
 1.  **Clone the repository** (or download the files).
     ```bash
@@ -68,7 +68,7 @@ The project follows a structured data analysis pipeline:
     ```
     Execute the cells sequentially to reproduce the entire analysis.
 
-## 📈 Key Findings
+##  Key Findings
 
 - **Strong Correlations:** Variables X8 (Additional Purchases) and X10 (Transaction Index) showed very strong positive correlations with sales across all product categories.
 - **Significant Sales Differences:** Hypothesis testing (t-tests) confirmed that the mean sales between Pants, Dresses, and Sweaters are statistically significantly different from each other.
